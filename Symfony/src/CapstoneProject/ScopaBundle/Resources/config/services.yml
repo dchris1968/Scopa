@@ -1,0 +1,7 @@
+parameters:
+#    capstone_project_scopa.example.class: CapstoneProject\ScopaBundle\Example
+
+services:
+#    capstone_project_scopa.example:
+#        class: %capstone_project_scopa.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

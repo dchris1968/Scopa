@@ -1,0 +1,5 @@
+capstone_project_scopa:
+    resource: "@CapstoneProjectScopaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
