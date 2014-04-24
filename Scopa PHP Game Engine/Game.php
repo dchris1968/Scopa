@@ -12,11 +12,11 @@
 		{
 			$this->deck = new Deck();
 			shuffle($this->deck->cards);
-			$this->player1Hand = $player1Hand;
-			$this->player2Hand = $player2Hand;
-			$this->tableCards = $tableCards;
-			$this->player1Collected = $player1Collected;
-			$this->player2Collected = $player2Collected;
+			$this->player1Hand = $this->player1Hand;
+			$this->player2Hand = $this->player2Hand;
+			$this->tableCards = $this->tableCards;
+			$this->player1Collected = $this->player1Collected;
+			$this->player2Collected = $this->player2Collected;
 			$this->deal();
 			//Deck::showDeck($this->deck->cards);
 			$this->dealToTable();
