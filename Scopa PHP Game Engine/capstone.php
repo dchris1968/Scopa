@@ -30,7 +30,7 @@
 		
 		
 		
-		if($_POST['playGame'])
+		if(isset($_POST['playGame']))
 		{
 			include('Card.php'); 
 			include('Deck.php');
