@@ -8,6 +8,29 @@
 <body>
 	<?php
 	
+<<<<<<< HEAD
+=======
+		// for($i = 0; $i < count($game->player1Hand); $i++)
+// 		{
+// 			echo $game->player1Hand[$i]->faceVal;
+// 			switch($game->player1Hand[$i]->suit)
+// 			{
+// 				case 0: echo "clubs<br/>";
+// 					break;
+// 				case 1: echo "swords<br/>";
+// 					break;
+// 				case 2: echo "coins<br/>";
+// 					break;
+// 				case 3: echo "cups<br/>";
+// 					break;
+// 				default: echo "ERROR<br/>";
+// 					break;
+// 			}
+// 		}
+		
+		
+		
+>>>>>>> e82faf5222ffb72c4a5cee30924c18ee217bed44
 		if(isset($_POST['playGame']))
 		{
 			include('Card.php'); 
