@@ -1,6 +1,7 @@
 <?php
 	Class Card
 	{
+		//yet to figure out point system for card 
 		public $ptValue = 0;
 		public $suit;
 		public $faceVal;

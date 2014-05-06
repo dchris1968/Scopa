@@ -22,6 +22,7 @@
 	
 		static function showDeck($deck)
 		{
+			//break tags inserted for visual aide
 			echo "This is the current deck.<br/>";
 			for($k=0; $k<count($deck); $k++)
 			{
