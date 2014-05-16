@@ -14,7 +14,9 @@ function Game() {
     
     self.init = function() {
         // gameboard
-        self.gameBoard = paper.rect(0, 0, 1250, 700, 15);
+        width = $(window).width();
+        height = $(window).height();
+        self.gameBoard = paper.rect(0, 0, (width -15), (height-15), 15);
         self.gameBoard.attr({
             fill:'#090',          /* fill with a greenish color */
             stroke:'#000'    /* draw a black border */
