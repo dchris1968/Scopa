@@ -1,0 +1,34 @@
+#canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+}
+
+body{
+	background-image:url('scopa.jpg');
+	background-size: 100%;
+}
+
+#container{
+	height: 600px;
+	position: relative;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#deal {
+	bottom: 300px;
+	left: 300px;
+	position: absolute;
+	width: 50%;
+	height: 30px;
+}
